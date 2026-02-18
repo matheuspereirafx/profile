@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Lustria&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centralização total da tela */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEF2F7;
+  font-weight: 400;
+}
+
+/* Container principal */
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Card principal */
+#info-perfil {
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  padding: 25px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Footer */
+#footer {
+  background-color: #E8EDFF;
+  border-radius: 8px;
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+}
+
+/* Tipografia */
+h1, h2 {
+  font-family: "Crimson Text", serif;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: "Lustria", serif;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* Imagem */
+#img-circle {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Botão */
+#button-business {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #1F2937;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+#button-business:hover {
+  background-color: #111827;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Ícones sociais */
+#footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+#footer i {
+  font-size: 22px;
+  color: #1F2937;
+  transition: 0.3s;
+}
+
+#footer i:hover {
+  transform: scale(1.2);
+  color: #2563EB;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
