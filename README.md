@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://via.placeholder.com/1200x600?text=Print+do+Seu+Perfil" alt="Banner do Projeto Perfil" width="100%">
+  <img src="https://github.com/user-attachments/assets/8a3da7c6-ed56-4a95-b3f2-c2f3f4a124ef" width="381" height="601">\
 
   # 🧑‍💻 Perfil Pessoal — Web Developer
   
